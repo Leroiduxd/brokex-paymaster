@@ -19,7 +19,7 @@ import { PRIVATE_KEYS, getPrivateKeyAt, getWalletCount } from "./wallets.js";
 
 // ─────────────────────── Config ───────────────────────
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8232;
 
 const RPC_URL =
   process.env.RPC_URL || "https://atlantic.dplabs-internal.com";

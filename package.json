@@ -1,18 +1,19 @@
 {
-  "name": "brokex-meta-relayer",
-  "version": "1.0.0",
-  "description": "Brokex MetaRelayer API with rotating wallets + auto-funding script",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "start": "node server.js",
-    "server": "node server.js",
-    "fund": "node fund-wallets.js"
-  },
-  "dependencies": {
-    "ethers": "^6.15.0",
-    "express": "^4.18.2"
-  },
-  "author": "Moustafa Khalil",
-  "license": "MIT"
+  "name": "brokex-meta-relayer",
+  "version": "1.0.0",
+  "description": "Brokex MetaRelayer API with rotating wallets + auto-funding script",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "fund": "node fund-wallets.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5", // <-- NOUVELLE DÉPENDANCE
+    "ethers": "^6.15.0",
+    "express": "^4.18.2"
+  },
+  "author": "Moustafa Khalil",
+  "license": "MIT"
 }

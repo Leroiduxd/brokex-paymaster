@@ -25,7 +25,7 @@ const PORT = process.env.PORT || 8232;
 const RPC_URL =
   process.env.RPC_URL || "https://atlantic.dplabs-internal.com";
 
-const CONTRACT_ADDRESS = "0x32da95857ea09Ec3347B59C4869f0D076E6a2957";
+const CONTRACT_ADDRESS = "0x4E70926ef4f07482Ecf3717f3669aA4dB188E38d";
 const PROOF_API_BASE = "https://backend.brokex.trade/proof?pairs=";
 
 // Provider partagé
